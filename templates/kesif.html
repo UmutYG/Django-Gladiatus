@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+{% extends 'layout.html' %}
+{% block head %}
+<style>
+.column {
+  float: left;
+  width: 15.33%;
+  padding: 30px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.attack {
+  padding-left: 40px;
+}
+
+
+
+</style>
+
+{% endblock head %}
+{% block body2 %}
+
+<div>
+<div class="row">
+  <div class="column">
+    <img src="https://lh3.googleusercontent.com/proxy/AHWNN8f3Pvs0o0q9DJCaTA-bUMah1YqZbysicw561FBl1D8YgMuHrZMke6yrB0zIWUJZr1JXHsDLq-OlHZkrozCs480aGT-jHKvPzbRHKpONNtgasbNFkdhQ" alt="Snow" style="width:100%">
+      <div class="attack">
+      <button type="button" class="btn btn-danger">Danger</button>
+          </div>
+  </div>
+  <div class="column">
+    <img src="https://lh3.googleusercontent.com/proxy/AHWNN8f3Pvs0o0q9DJCaTA-bUMah1YqZbysicw561FBl1D8YgMuHrZMke6yrB0zIWUJZr1JXHsDLq-OlHZkrozCs480aGT-jHKvPzbRHKpONNtgasbNFkdhQ" alt="Forest" style="width:100%">
+       <div class="attack">
+      <button type="button" class="btn btn-danger">Danger</button>
+          </div>
+  </div>
+  <div class="column">
+    <img src="https://lh3.googleusercontent.com/proxy/AHWNN8f3Pvs0o0q9DJCaTA-bUMah1YqZbysicw561FBl1D8YgMuHrZMke6yrB0zIWUJZr1JXHsDLq-OlHZkrozCs480aGT-jHKvPzbRHKpONNtgasbNFkdhQ" alt="Mountains" style="width:100%">
+       <div class="attack">
+      <button type="button" class="btn btn-danger">Danger</button>
+          </div>
+  </div>
+</div>
+
+{% endblock %}
